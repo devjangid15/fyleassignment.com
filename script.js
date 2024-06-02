@@ -107,23 +107,34 @@ imagecard3.addEventListener('click',function(){
 
 const slideImages = document.querySelector('.slider-images');
 const dots = document.querySelectorAll('.slideBtn');
-let currentSlide = 0;
 
-function showSlide(n) {
+slide=(n)=> {
     slideImages.style.transform = `translateX(${(n) * 180}px)`;
-    dots.forEach(dot => dot.classList.remove('active'));
     dots[n].classList.add('active');
+    changeInClass(n);
+}
+
+changeInClass=(n)=> {
+    dots.forEach((dot)=>{
+        if(dot.classList.contains('active')){
+            dot.classList.add('slideBtn1');
+            dot.classList.remove('slideBtn2');
+        }
+        else{
+            if(!dot.classList.contains('slideBtn2'))
+                {
+                dot.classList.add('slideBtn2');
+            }
+        }
+    })
+    dots[n].classList.remove('active');
 }
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
-        currentSlide =index;
-        showSlide(currentSlide);
+        slide(index);
     });
 });
-
-showSlide(currentSlide);
-
 
 const fylehq=document.querySelectorAll('.redirect');
 for(let elem of fylehq){
@@ -131,5 +142,6 @@ for(let elem of fylehq){
         window.open('https://www.fylehq.com','_blank')
     })
 }
+
 
 
