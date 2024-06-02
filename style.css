@@ -1,0 +1,572 @@
+.main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 4760px;
+    padding:0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: cormorant;
+    box-sizing: border-box;
+}
+.all{
+    margin-top: 100px;
+}
+button{
+    top: 645px;
+    left: 376px;
+    width: 160px;
+    height: 50px;
+
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 2px;
+    opacity: 1;
+}
+.image {
+    align-self: flex-end;
+    width: 487px;
+    height: 737px;
+
+    background: transparent url('/fyleassignment.com/Images/Home/hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fullTags{
+    width: 1920px;
+    height: 1030px;
+    background: rgba(250, 250, 250, 1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.wedo{
+    margin-top: 100px;
+    width: 177px;
+    height: 24px;
+
+    text-align: left;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+.serviceHeading{
+    width: 442px;
+    height: 110px;
+    text-align: left;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.serviceInfo{
+    width: 584px;
+    height: 83px;
+    margin: 77px 0px 2px 145px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.slide-img1{
+    width: 370px;
+    height: 526px;
+    margin-right: 15px;
+    background: transparent url('/fyleassignment.com/Images/Home/1-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slide-img2{
+    width: 370px;
+    height: 526px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: transparent url('/fyleassignment.com/Images/Home/2-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slide-img3{
+    width: 370px;
+    height: 526px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: transparent url('/fyleassignment.com/Images/Home/pexels-divinetechygirl-1181467.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.slide-img4{
+    width: 370px;
+    height: 526px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: transparent url('/fyleassignment.com/Images/Home/3-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.hovering {
+
+    width: 370px;
+    height: 526px;
+    display: none;
+    padding-top:116px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.icon1 {
+    margin-left: 156px;
+    width: 57px;
+    height: 57px;
+    background: transparent url('/fyleassignment.com/Images/Home/icon.svg') 0% 0% no-repeat padding-box;
+}
+
+.hovering h3{
+    width: 242px;
+    height: 24px;
+    text-align: center;
+    margin-top:36px;
+    margin-left: 64px;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.hovering p{
+    width: 320px;
+    height: 54px;
+    margin-top: 21px;
+    margin:0px 25px;
+    text-align: center;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.hovering button {
+    width: 185px;
+    height: 50px;
+    margin-top: 54px;
+    margin-left: 93px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+
+}
+.hovering button span{
+    width: 91px;
+    height: 20px;
+    text-align: left;
+    margin: 21px 21px;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FF3147;
+    opacity: 1;
+}
+.hovering button img{
+    width: 37px;
+    height: 10px;
+    background: transparent url('img/arrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slide-img1:hover .hovering {
+    display: block;
+}
+.slide-img2:hover .hovering {
+
+    display: block;
+}
+.slide-img3:hover .hovering {
+    display: block;
+}
+.slide-img4:hover .hovering {
+    display: block;
+}
+.slideBtn1{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    background: transparent url('/fyleassignment.com/Images/Home/1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slideBtn2{
+    width: 8px;
+    height: 8px;
+    margin: 51px 0px 0px 20px ;
+    background: transparent url('/fyleassignment.com/Images/Home/2.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.symbol1{
+    width: 72px;
+    height: 72px;
+    background: transparent url('/fyleassignment.com/Images/Home/1-1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.symbol2{
+    width: 70px;
+    height: 65px;
+    background: transparent url('/fyleassignment.com/Images/Home/2-1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.symbol3{
+    width: 68px;
+    height: 75px;
+    background: transparent url('/fyleassignment.com/Images/Home/3-1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.symbol4{
+    width: 70px;
+    height: 70px;
+    background: transparent url('/fyleassignment.com/Images/Home/4.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bestHeading1{
+    width: 243px;
+    height: 28px;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000000;
+    opacity: 1;
+}
+.bestHeading2{
+    width: 182px;
+    height: 28px;
+    text-align: left;
+    margin-top: 27.13px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000000;
+    opacity: 1;
+}
+.bestHeading3{
+    width: 176px;
+    height: 28px;
+    text-align: left;
+    margin-top: 19px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000000;
+    opacity: 1;
+}
+.bestHeading4{
+    width: 249px;
+    height: 28px;
+    text-align: left;
+    margin-top: 25.28px; 
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000000;
+    opacity: 1;
+}
+.bestContent{
+    width: 256px;
+    height: 75px;
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 42px;
+    font: normal normal normal 16px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.biggerImage{
+    width: 770px;
+    height: 567px;
+    background: transparent url('/fyleassignment.com/Images/Home/image.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 30px;
+}
+.imageCard{
+    width: 370px;
+    height: 189px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.imageCard:hover{
+    cursor:pointer;
+    
+}
+.expert{
+    margin-top: 100px;
+    width: 227px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.growth{
+    width: 561px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.last-card{
+    margin-top: 60px;
+    margin: 60px 15px 0px 15px;
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.last-card:hover{
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
+.fig1{
+    margin-top: 34px;
+    width: 39px;
+    height: 34px;
+    background: transparent url('/fyleassignment.com/Images/Home/heart\ \(2\).svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fig2{
+    margin-top: 34px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('/fyleassignment.com/Images/Home/clock\ \(3\).svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fig3{
+    margin-top: 34px;
+    width: 35px;
+    height: 35px;
+    background: transparent url('/fyleassignment.com/Images/Home/Path\ 4402.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fig4{
+    margin-top: 34px;
+    width: 37px;
+    height: 30px;
+    background: transparent url('/fyleassignment.com/Images/Home/Path\ 4406.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.count1{
+    margin: 9px 61px 10px 61px;
+    width: 148px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.tag{
+    width: 140px;
+    height: 28px;
+    text-align: center;
+    font: normal normal 300 20px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.feedbackHeading{
+    margin-top:100px;
+    width: 248px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.feedbackHeading2{
+    margin-top: 40px;
+    width: 598px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.quote{
+    position: absolute;
+    top: 4205px;
+    left: 541px;
+    width: 64px;
+    height: 45px;
+    background: transparent url('/fyleassignment.com/Images/Home/Quotemarks-left.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slogan{
+    margin-top: 76px;
+    width: 831px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    z-index: 1;
+}
+.footer{
+
+    margin-top: 100px;
+    width: 1920px;
+    height: 310px;
+
+    background: transparent url('/fyleassignment.com/Images/Home/NoPath\ -\ Copy.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.groups{
+    width: 1170px;
+    height: 56px;
+    background: transparent url('/fyleassignment.com/Images/Home/Group\ 500.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+button span {
+    top: 660px;
+    left: 405px;
+    width: 103px;
+    height: 20px;
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    cursor: pointer;
+}
+  
+.popup-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.form-content {
+    width: 450px;
+    height: 362px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 15% auto;
+    padding:32px;
+    padding: 31px;
+}
+
+input[type=email]{
+    width: 386px;
+    height: 37px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6F718F99;
+    box-sizing: border-box;
+}
+input[type=text] {
+    width: 178px;
+    height: 37px;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #2D3142;
+    opacity: 1;
+    margin-top:30px;
+    margin-right: 30px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-bottom:2px solid #6F718F99;
+    box-sizing: border-box;
+}
+
+.name-fields {
+    display: flex;
+    justify-content:flex-start;
+}
+.checkbox-container{
+    margin: 25px 0px ;
+    display: flex;
+}
+#agreeTerms{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FF3366;
+    margin-top: 5.5px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 1;
+}
+.checkbox-container, .tnc{
+    width: 358px;
+    height: 39px;
+    text-align: left;
+    margin-left:5px;
+    letter-spacing: 0px;
+    color: #616678;
+    opacity: 0.9;
+}
+.checkbox-container input[type=checkbox] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FF3366;
+    border-radius: 3px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-container input[type=checkbox]:checked {
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+.checkbox-container input[type=checkbox]:checked::before {
+    content: "\2714";
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contactUsBtn{
+    width: 386px;
+    height: 52px;
+    background: #FF3366 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#contactUsBtn span{
+    width: 95px;
+    height: 23px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
