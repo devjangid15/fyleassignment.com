@@ -23,7 +23,7 @@ const checkBox=document.getElementById('agreeTerms')
 contactUsBtn.onclick=()=>{
     const formData=new FormData(contactForm);
 
-    fetch("https://getform.io/f/pboxjvga",{
+    fetch("https://getform.io/f/pbygxqqb",{
         method:'POST',
         body:formData
     })
